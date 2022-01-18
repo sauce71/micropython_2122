@@ -6,4 +6,6 @@ i2c_adresses = i2c.scan()
 for address in i2c_adresses:
     print(address)
 
+
+
 #print(i2c.scan())
