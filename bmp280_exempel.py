@@ -11,7 +11,7 @@ bmp.use_case(BMP280_CASE_WEATHER)
 bmp.oversample(BMP280_OS_HIGH)
 bmp.power_mode = BMP280_POWER_FORCED
 
-qnh=101300.25
+qnh=1013.25
 
 while True:
     temperature = bmp.temperature
